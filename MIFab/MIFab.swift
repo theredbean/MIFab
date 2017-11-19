@@ -195,7 +195,8 @@ public class MIFab {
         
         fabButton.alpha = 0
         
-        fabButton.button.setImage(config.buttonImage, for: UIControlState())
+        //fabButton.button.setImage(config.buttonImage, for: UIControlState())
+        fabButton.button.setImage(UIImage(named:"homeGaragsUnselect.png"), for: UIControlState())
         
         fabButton.button.backgroundColor = config.buttonBackgroundColor
         fabButton.button.tintColor = config.buttonTintColor

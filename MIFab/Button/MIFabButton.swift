@@ -35,6 +35,7 @@ class MIFabButton: UIView {
         
         button.layer.cornerRadius = button.frame.width/2
         
+        
     }
     
     @IBAction func fabButtonDidTapped(_ sender: AnyObject?) {
