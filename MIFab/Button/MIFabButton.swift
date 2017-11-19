@@ -33,7 +33,7 @@ class MIFabButton: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        button.layer.cornerRadius = button.frame.width//2
+        button.layer.cornerRadius = button.frame.width		/2
         
     }
     
