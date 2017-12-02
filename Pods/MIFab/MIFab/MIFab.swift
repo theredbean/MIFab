@@ -44,6 +44,7 @@ public class MIFab {
         
         public var buttonPadding = CGSize(width: 30, height: 40)
         public var buttonSize: CGFloat = 75
+        publiv var buttonName : String = "S"
         
         public var buttonImage: UIImage?
         public var buttonBackgroundColor = UIColor.orange
